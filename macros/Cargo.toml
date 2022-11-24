@@ -1,0 +1,29 @@
+[package]
+name = "kleio_macros"
+version = "0.1.0"
+authors = ["Bradford Toney <bradford.toney@gmail.com>"]
+edition = "2021"
+publish = false
+
+[lib]
+proc-macro = true
+
+[dependencies]
+darling = "0.14.0"
+proc-macro2 = "1"
+proc-macro-error = "1"
+quote = "1"
+syn = { version = "^1", features = ["full"] }
+
+[dev-dependencies]
+trybuild = "1"
+
+[dev-dependencies.sea-orm]
+version = "^0.7.0"
+features = [
+    "macros",
+    "debug-print",
+    "runtime-tokio-native-tls",
+    "sqlx-postgres",
+]
+default-features = false
