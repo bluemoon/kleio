@@ -3,6 +3,8 @@ name = "kleio-macros"
 version = "0.0.1"
 authors = ["Bradford Toney <bradford.toney@gmail.com>"]
 edition = "2021"
+description = ""
+license = "MIT"
 
 [lib]
 proc-macro = true
