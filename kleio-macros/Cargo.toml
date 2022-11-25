@@ -3,7 +3,7 @@ name = "kleio-macros"
 version = "0.0.1"
 authors = ["Bradford Toney <bradford.toney@gmail.com>"]
 edition = "2021"
-description = ""
+description = "Macros for kleio"
 license = "MIT"
 
 [lib]
