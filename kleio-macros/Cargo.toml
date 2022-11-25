@@ -1,9 +1,8 @@
 [package]
-name = "kleio_macros"
-version = "0.1.0"
+name = "kleio-macros"
+version = "0.0.1"
 authors = ["Bradford Toney <bradford.toney@gmail.com>"]
 edition = "2021"
-publish = false
 
 [lib]
 proc-macro = true
